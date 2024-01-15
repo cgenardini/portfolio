@@ -20,7 +20,7 @@
 }
 
 .intro__project-button{
-    margin-top: 40px;
+    margin: 40px 0 40px;
     background-color: transparent;
     color: #f3f2ed;
     width: 150px;
@@ -42,3 +42,10 @@ cursor: pointer;
 
 }
 
+@media screen and (max-width: 580px) {
+
+    .intro{
+        margin-top: 90px;
+    }
+
+}

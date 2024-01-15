@@ -49,3 +49,14 @@ text-align: center;
 width: 250px;
 }
 
+
+@media screen and (max-width: 580px) {
+    .project-card {
+        max-width: 318px;
+    }   
+
+    .project-card__image {
+        width: 318px;
+    }
+
+}

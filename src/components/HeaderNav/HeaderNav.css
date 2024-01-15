@@ -4,6 +4,7 @@
     align-items: center;
     margin: 0 60px ;
     border-bottom: 0.1px solid #f3f2ed;
+    position: relative;
 }
 
 .nav__about {
@@ -110,4 +111,34 @@ font-size: 20px;
 
 .nav__list-item:hover {
 color: #E9721A;
+}
+
+
+@media screen and (max-width: 580px) {
+    .nav{
+justify-content: space-between;
+margin: 0 20px ;
+    }
+
+
+.nav__list {
+position: absolute;
+top: 120px;
+left: 0;
+font-size: 18px;
+}
+
+.nav__logo {
+    max-width: 45px;
+}
+
+.nav__menu-button {
+    margin-right: 20px;
+}
+
+
+
+
+
+
 }

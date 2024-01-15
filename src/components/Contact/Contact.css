@@ -40,3 +40,21 @@ color: #E9721A;
 
 
 
+@media screen and (max-width: 580px) {
+    .contact__header{
+        margin: 100px 0 40px 20px;
+     }
+.contact__contact{
+    margin: 0 0 10px 20px;
+}
+
+.contact__icon {
+    height: 25px;
+    width: 25px;
+}
+
+.contact__text {
+font-size: 15px;
+}
+
+}
