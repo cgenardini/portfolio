@@ -1,0 +1,21 @@
+.projects{
+    color: #f3f2ed;
+}
+
+.projects__header{
+    color: #f3f2ed;
+    margin: 80px 0 80px 60px;
+}
+
+.projects__gallery {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 328px);
+    column-gap: 17px;
+    row-gap: 20px;
+    min-height: auto;
+    justify-content: center;
+    margin:0 60px;  
+    /* padding: 60px 10px 30px; */
+}

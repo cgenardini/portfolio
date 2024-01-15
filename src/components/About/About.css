@@ -1,0 +1,25 @@
+.about {
+display: flex;
+margin: 80px 60px 0;
+justify-content: space-between;
+}
+
+.about__header{
+
+}
+
+.about__summary {
+    margin-right: 40px;
+    max-width: 600px;
+
+}
+
+.about__paragraph {
+
+}
+
+.about__image {
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+}

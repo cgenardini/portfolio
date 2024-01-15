@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'Outfit-ExtraLight';
+  src: url('../../fonts/Outfit-ExtraLight.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Outfit-Thin';
+  src: url('../../fonts/Outfit-Thin.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Outfit-Regular';
+  src: url('../../fonts/Outfit-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Outfit-Medium';
+  src: url('../../fonts/Outfit-Medium.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Outfit-Bold';
+  src: url('../../fonts/Outfit-Bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Outfit-Black';
+  src: url('../../fonts/Outfit-Black.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Romie-italic';
+  src: url('../../fonts/Romie-Italic.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Romie-Regular';
+  src: url('../../fonts/Romie-Regular.woff2') format('woff2');
+}
+
+.app {
+ display: flex;
+ flex-direction: column;
+  font-family: 'Romie-Regular', sans-serif;
+  font-size: 16px;
+  min-height: 100vh;
+  /* color: navy; */
+  /* background-color: #f3f2ed; */
+
+}
+
+.app__about {
+  background-color: #f3f2ed ;
+}
+
+.app__contact {
+background-color: #f3f2ed;
+}
+
+.app__projects {
+  background-color: #030C1C;
+}

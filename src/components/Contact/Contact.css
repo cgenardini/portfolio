@@ -1,0 +1,42 @@
+.contact {
+    color: #030C1C;
+    font-family: 'Romie-Regular', sans-serif;
+   
+}
+
+.contact__header{
+   margin: 100px 0 40px 60px;
+}
+
+.contact__contact{
+    display: flex;
+    margin: 0 0 10px 60px;
+    align-items: center;
+    text-decoration: none;
+    color: #030C1C;
+}
+
+.contact__contact:hover {
+   
+}
+
+.contact__icon {
+    height: 30px;
+    width: 30px;
+    margin-right: 20px;
+}
+
+.contact__icon:hover {
+    opacity: 80%;
+}
+
+.contact__text {
+
+}
+
+.contact__text:hover {
+color: #E9721A;
+}
+
+
+

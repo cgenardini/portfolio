@@ -1,0 +1,98 @@
+.footer {
+
+    display: flex;
+    margin-top: auto;
+    height: 80px;
+    align-items: center;
+    
+}
+
+.footer__copywrite{
+        color: #f3f2ed;
+    margin: 0 0 0 60px ;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+
+}
+
+.footer__copywrite_about {
+    color: #030C1C;
+}
+
+.footer__copywrite_contact {
+    color: #030C1C;
+}
+
+.footer__icons {
+    list-style: none;
+    margin: 0 60px 0 auto;
+    padding: 0;
+    display: flex;
+    align-items: center;
+
+}
+
+.footer__list-item {
+height: 18px;
+}
+
+.footer__icon {
+    width: 18px;
+    height: 18px;
+    margin-left: 20px;
+    cursor: pointer;
+    border: 0;
+    background-color: transparent;
+    padding: 0;
+  
+}
+
+.footer__linkedin {
+    background-image: url(../../images/social/linkedin.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer__github {
+    background-image: url(../../images/social/github.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer__email {
+    background-image: url(../../images/social/gmail.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer__linkedin_about {
+background-image: url(../../images/social/linkedin-blue.svg);
+}
+
+.footer__github_about {
+    background-image: url(../../images/social/github-blue.svg);
+}
+
+.footer__email_about {
+    background-image: url(../../images/social/gmail-blue.svg);
+}
+
+.footer__linkedin_contact {
+    background-image: url(../../images/social/linkedin-blue.svg);
+}
+    
+.footer__github_contact {
+        background-image: url(../../images/social/github-blue.svg);
+}
+    
+.footer__email_contact {
+        background-image: url(../../images/social/gmail-blue.svg);
+}
+
+.footer__icon:hover {
+    opacity: 80%;
+}

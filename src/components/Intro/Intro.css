@@ -1,0 +1,44 @@
+.intro {
+    text-align: center;
+    color: #f3f2ed;
+    font-family: 'Romie-Regular', sans-serif;
+    
+    letter-spacing: 2px;
+    margin-top: 150px;
+}
+
+.intro__header {
+    font-size: 45px;
+    margin: 0 0 10px;
+    font-weight: 500;
+}
+
+.intro__body {
+    font-size: 16px;
+    margin: 0;
+    font-weight: 500;
+}
+
+.intro__project-button{
+    margin-top: 40px;
+    background-color: transparent;
+    color: #f3f2ed;
+    width: 150px;
+    height: 40px;
+    border: .5px solid #f3f2ed;
+    border-radius: 8px;
+font-family: 'Romie-Regular', sans-serif;
+font-size: 16px;
+letter-spacing: 2px;
+font-weight: 700;
+cursor: pointer;
+}
+
+.intro__project-button:hover {
+    font-family: 'Romie-italic', sans-serif;
+    letter-spacing: 2px;
+    color: #E9721A;
+    border: .5px solid #E9721A;
+
+}
+
