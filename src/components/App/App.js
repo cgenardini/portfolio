@@ -6,9 +6,11 @@ import About from "../About/About";
 import Projects from "../Projects/Projects";
 import Contact from "../Contact/Contact";
 import Footer from "../Footer/Footer";
+import ProjectPopup from "../ProjectPopup/ProjectPopup";
 import "./App.css";
 import logo from "../../images/logo.png";
 import Background from "../Background/Background";
+import Preloader from "../Preloader/Preloader";
 
 import {
   Route,
@@ -20,7 +22,25 @@ import { PathClassNameContext } from "../../context/PathClassNameContext";
 
 function App() {
   const [pathClass, setPathClass] = React.useState("");
+  const [currentPopup, setCurrentPopup] = React.useState("");
+  const [currentItem, setCurrentItem] = React.useState({});
+  const [isLoading, setIsLoading] = React.useState(true);
   const location = useLocation();
+
+  const handleOpenProjectPopup = (item) => {
+    setCurrentPopup("project");
+    setCurrentItem(item);
+  };
+
+  const handleClosePopup = () => {
+    setCurrentPopup("");
+  };
+
+  const handleClickOutsideClose = (evt) => {
+    if (evt.target.classList.contains("project-popup")) {
+      handleClosePopup();
+    }
+  };
 
   useEffect(() => {
     const currentPath = location.pathname;
@@ -38,8 +58,23 @@ function App() {
     }
   }, [location.pathname]);
 
+  useEffect(() => {
+    const handleEscClose = (e) => {
+      if (e.key === "Escape") {
+        handleClosePopup();
+      }
+    };
+    window.addEventListener("keydown", handleEscClose);
+    return () => window.removeEventListener("keydown", handleEscClose);
+  }, []);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setIsLoading(false), 1500);
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
-    <div className={`app app__${pathClass}`}>
+    <div className={`app app__${pathClass}`} onClick={handleClickOutsideClose}>
       <PathClassNameContext.Provider value={{ pathClass }}>
         <Header logoSrc={logo} />
         <Switch>
@@ -50,7 +85,8 @@ function App() {
             <About />
           </Route>
           <Route path="/projects">
-            <Projects />
+            <Projects openProjectPopup={handleOpenProjectPopup} />
+            <Background />
           </Route>
           <Route path="/">
             <Main />
@@ -59,6 +95,15 @@ function App() {
         </Switch>
 
         <Footer />
+
+        {isLoading && <Preloader />}
+
+        {currentPopup === "project" && (
+          <ProjectPopup
+            item={currentItem}
+            handleClosePopup={handleClosePopup}
+          />
+        )}
       </PathClassNameContext.Provider>
     </div>
   );

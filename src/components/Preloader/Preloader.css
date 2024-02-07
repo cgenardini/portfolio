@@ -1,0 +1,29 @@
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    background-color: #f3f2ed;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.preloader-icon {
+    background: url('../../images/logo-orange.png') no-repeat center/cover ;
+
+    height: 50px;
+    width: 50px;
+    z-index: 101;
+    /* position: absolute; */
+    animation: spin 4s infinite linear;
+
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}

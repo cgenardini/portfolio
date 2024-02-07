@@ -12,7 +12,7 @@ export const projectsArray = [
     frontend: "https://github.com/cgenardini/the_recipe_frontend",
     backend: "https://github.com/cgenardini/the_recipe_backend",
     summary:
-      "Recipe finding application. Users can create accounts to save recipes their profiles. User data is secure with token authentication and data encoding/hashing. SPA created with React, React Hooks and React Router.",
+      "Discover culinary inspiration with The Recipe, a comprehensive application designed to revolutionize how users explore, and save recipes. Built as a Single Page Application using React, React Hooks, and React Router, it offers a seamless user experience, enhanced security through token-based authentication, and data encoding/hashing. It's not just an app; it's your next meal planner and culinary guide, all in one.",
     image: recipe,
     tools:
       "HTML | CSS | JSX | React | React Hooks | React Routes | Node | Express | MongoDB | REST API | Google Cloud | Nginx",
@@ -24,7 +24,7 @@ export const projectsArray = [
     frontend: "https://github.com/cgenardini/se_project_react",
     backend: "https://github.com/cgenardini/se_project_express",
     summary:
-      "Clothing recommendations application. Clothing items added by users will be shown on the home page based on what the current weather is. Users may create profiles and add new clothing items to their profile and the database. User data is secure with data encoding and token authentication.",
+      "WTWR redefines how users select their daily attire by aligning fashion with the forecast. This innovative application suggests clothing based on real-time weather conditions, ensuring users not only look their best but are also prepared for the elements. With capabilities for users to add their fashion items, create personal profiles, and contribute to a weather-wise wardrobe database, WTWR blends style with practicality, secured with advanced data encoding and token authentication.",
     image: wtwr,
     tools:
       "HTML | CSS | JSX | React | React Hooks | React Routes | Node | Express | MongoDB | Google Cloud | Nginx",
@@ -35,7 +35,7 @@ export const projectsArray = [
     link: "https://cgenardini.github.io/se_project_aroundtheus/",
     frontend: "https://github.com/cgenardini/se_project_aroundtheus",
     summary:
-      "Front End Social media application. Image cards can be added to profile. Users information and avatar can be edited using form modal. Images can be liked/unliked.",
+      "Around the US is an immersive frontend social media platform that allows users to embark on a digital journey across the United States through image sharing. This platform enables users to personalize their experience by adding image cards, editing profiles, and interacting with content through likes. Developed using advanced JavaScript and Object-Oriented Programming principles, it offers a dynamic, responsive user interface crafted with Webpack and Babel for a seamless online community experience.",
     image: aroundus,
     tools:
       "HTML | CSS | JavaScript | Object-Oriented Programming | Webpack | Babel",
@@ -46,7 +46,7 @@ export const projectsArray = [
     link: "https://cgenardini.github.io/se_project_coffeeshop/",
     frontend: "https://github.com/cgenardini/se_project_coffeeshop",
     summary:
-      "Coffee Shop Landing Page. HTML/CSS used to create accessibiltiy friendly landing paging. Animation is used for dynamic feature.",
+      "Step into The Coffee Shop, a landing page that welcomes you with the warm aroma of coffee through its visually appealing and accessibility-friendly design. Utilizing HTML and CSS, this project employs animation to bring dynamic features to life, creating an inviting online presence for coffee lovers. The design principles of BEM and Flexbox ensure a fluid, intuitive navigation experience, mirroring the comfort and ease of your favorite coffee shop.",
     image: coffee,
     tools: "HTML | CSS | BEM | Flexbox | Animation",
   },
@@ -56,7 +56,7 @@ export const projectsArray = [
     link: "https://cgenardini.github.io/se_project_library/",
     frontend: "https://github.com/cgenardini/se_project_library",
     summary:
-      "Library Landing Page. HTML/CSS used to create accessibiltiy friendly landing paging. Focus on BEM and Flexbox.",
+      "The Library's landing page stands as a gateway to a world of knowledge, designed with accessibility at its forefront. Through the meticulous use of HTML and CSS, this project emphasizes clarity and ease of use, employing BEM and Flexbox to structure content in a way that's both appealing and straightforward. It's an online space where the love for books and the pursuit of learning are celebrated, inviting users into a community that values accessibility and elegant design.",
     image: library,
     tools: "HTML | CSS | BEM | Flexbox",
   },

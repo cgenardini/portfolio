@@ -1,9 +1,14 @@
 import "./ProjectCard.css";
 
-function ProjectCard({ card }) {
+function ProjectCard({ card, openProjectPopup }) {
+  const openPopup = (e) => {
+    e.preventDefault();
+    openProjectPopup(card);
+  };
+
   return (
     <a href={card.link} target="_blank">
-      <li className="project-card">
+      <li className="project-card" onClick={openPopup}>
         <img
           src={card.image}
           alt={card.name}

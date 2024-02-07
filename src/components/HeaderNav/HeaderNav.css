@@ -124,7 +124,7 @@ margin: 0 20px ;
 .nav__list {
 position: absolute;
 top: 120px;
-left: 0;
+right: 0;
 font-size: 18px;
 }
 
